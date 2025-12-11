@@ -1,6 +1,6 @@
 # blrmat: BLR Matrix Solver
 
-A lightweight **Block Low-Rank (BLR) Matrix** library implemented in CUDA.  This project leverages **cuBLAS** and **cuSOLVER** to accelerate dense matrix operations by compressing off-diagonal blocks into low-rank approximations ($U \times V^T$) via SVD.
+A lightweight **Block Low-Rank (BLR) Matrix** library implemented in CUDA.  This project leverages **cuBLAS** and **cuSOLVER** to accelerate dense matrix operations by compressing off-diagonal blocks into low-rank approximations.
 
 ## Features
 
