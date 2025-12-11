@@ -2,7 +2,7 @@
  * Author: Xinye Chen
  * Affiliation: Postdoctoral Researcher, Sorbonne University, LIP6, CNRS
  * 
- * Implementation of high-performance BLR operations.
+ * Lightweight implementation of BLR formagt as well as operations.
  */
 
 
@@ -305,7 +305,7 @@ void BLRMatrix::factorizeCholesky() {
                                          A_ik->d_Dense, A_ik->rows));
             } else {
                 // Low Rank Case: A_ik = U * V^T
-                // We want: (U * V^T) * L_kk^{-T} = U * (V^T * L_kk^{-T})
+                // Target: (U * V^T) * L_kk^{-T} = U * (V^T * L_kk^{-T})
                 // Let V_new^T = V^T * L_kk^{-T}
                 // Transpose both sides: V_new = L_kk^{-1} * V
                 // This is a LEFT solve on V.
