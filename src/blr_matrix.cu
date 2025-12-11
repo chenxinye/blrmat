@@ -310,11 +310,9 @@ void BLRMatrix::factorizeCholesky() {
                 // Transpose both sides: V_new = L_kk^{-1} * V
                 // This is a LEFT solve on V.
                 
-                // V is stored as (cols x rank) in memory?
                 // Wait, in buildFromDense/compressTile: 
                 // We perform Transpose at the end. 
                 // So tile->d_V stores the matrix V (size: n x rank).
-                // Correct.
                 
                 // Solve L_kk * X = V  =>  X = L_kk^{-1} * V
                 // Side: Left. 
