@@ -28,7 +28,7 @@ A lightweight **Block Low-Rank (BLR) Matrix** library implemented in CUDA.  This
 ## Simulations
 
 
-All tests were performed on a DELL PowerEdge R750xa server with 2 TB of memory, equipped with NVIDIA A100 80GB PCIe and two Intel Xeon Gold 6330 processors, featuring 56 cores and 112 threads at 2.00 GHz. Check details on [front.convergence.lip6](https://front.convergence.lip6.fr/).
+All tests were performed on a Dell PowerEdge R750xa server with 2 TB of memory. The system is equipped with four NVIDIA A100 80GB PCIe GPUs and two Intel Xeon Gold 6330 processors (totaling 56 cores, 2.00 GHz). Benchmarks were conducted on a single GPU instance. Check details on [front.convergence.lip6](https://front.convergence.lip6.fr/).
 
 
 The GEMM with BLR format reaches close to 2 times speedup compared with cuBLAS GEMM in our example:
