@@ -9,7 +9,7 @@ A lightweight **Block Low-Rank (BLR) Matrix** library implemented in CUDA.  This
     * **GEMM**: Matrix-Matrix multiplication exploiting low-rank structure ($O(N \cdot k)$ vs $O(N^2)$).
     * **Cholesky Decomposition**: In-place factorization for Symmetric Positive Definite (SPD) matrices using Left-Looking TRSM updates.
     * **LU Decomposition**: Standard block LU factorization (simplified proof-of-concept).
-* **Accuracy Verification**: Built-in validation routines to compute Frobenius norm errors against dense reference solutions.
+
 
 
 ##  Project Structure
