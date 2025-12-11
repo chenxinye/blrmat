@@ -1,0 +1,2 @@
+/usr/bin/ar qc libblr_core.a CMakeFiles/blr_core.dir/src/blr_matrix.cu.o
+/usr/bin/ranlib libblr_core.a
