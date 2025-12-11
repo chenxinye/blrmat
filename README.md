@@ -22,8 +22,7 @@ A lightweight **Block Low-Rank (BLR) Matrix** library implemented in CUDA.  This
 │   └── blr_matrix.h     # Header definitions
 └── src/
     └── blr_matrix.cu    # CUDA implementation
-
-
+```
 
 
 ## Simulations
