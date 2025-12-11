@@ -2,7 +2,7 @@
  * Author: Xinye Chen
  * Affiliation: Postdoctoral Researcher, Sorbonne University, LIP6, CNRS
  * 
- * Lightweight implementation of BLR formagt as well as operations.
+ * Lightweight implementation of BLR formagt and operations.
  */
 
 
